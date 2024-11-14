@@ -5,6 +5,7 @@ import netflixPage from "../assets/portfolio/netflix.png";
 import htmlCssPortfolio from "../assets/portfolio/portfolio.png";
 import htmlCssProjects from "../assets/portfolio/html-css-projects.png";
 import jsProjects from "../assets/portfolio/js-projects.png";
+import threeDsite from "../assets/portfolio/3d-site.png";
 import github from "../assets/github.png";
 import { FiExternalLink } from "react-icons/fi";
 
@@ -22,7 +23,7 @@ const Portfolio = () => {
           name: "API,",
         },
         {
-          name: "Tailwind",
+          name: "Tailwind CSS",
         },
       ],
       src: swiggyClone,
@@ -39,7 +40,7 @@ const Portfolio = () => {
           name: "API,",
         },
         {
-          name: "Tailwind",
+          name: "Tailwind CSS",
         },
       ],
       src: youtubeClone,
@@ -52,13 +53,12 @@ const Portfolio = () => {
       tags: [
         {
           name: "ReactJS,",
-          color: "blue-text-gradient",
         },
         {
           name: "API,",
         },
         {
-          name: "Tailwind,",
+          name: "Tailwind CSS,",
         },
         {
           name: "Firebase",
@@ -67,8 +67,30 @@ const Portfolio = () => {
       src: netflixPage,
       source_code_link: "https://github.com/bhargav-talpada/My-Netflix.git",
     },
+    
     {
       id: 4,
+      name: "3D-Website",
+      tags: [
+        {
+          name: "ReactJS,",
+        },
+        {
+          name: "ThreeJS,",
+        },
+        {
+          name: "Tailwind CSS,",
+        },
+        {
+          name: "Framer Motion",
+        },
+      ],
+      src: threeDsite,
+      source_code_link: "https://github.com/bhargav-talpada/3D-Portfolio.git",
+      live_link: "https://bhargav-talpada.vercel.app/",
+    },
+    {
+      id: 5,
       name: "HTML-CSS-Portfolio",
       tags: [
         {
@@ -86,7 +108,7 @@ const Portfolio = () => {
       live_link: "https://bhargavtalpada.netlify.app/",
     },
     {
-      id: 5,
+      id: 6,
       name: "JavaScript-Projects",
       tags: [
         {
@@ -134,27 +156,29 @@ const Portfolio = () => {
               className="shadow-md shadow-gray-600 rounded-lg  duration-300 hover:scale-105"
             >
               <img src={src} alt="" className="rounded-md" />
-              <div className="px-4 mt-5 flex flex-col">
-                <h2 className="font-bold text-lg">{name}</h2>
-              
+              <div className="w-[400px] px-4 flex flex-col">
+                <div className=" flex justify-between items-center">
+                  <h2 className="font-bold text-lg">{name}</h2>
+                  <div className="flex items-center justify-center">
+                    <button className="w-1/2 mr-5 py-4 duration-500 hover:scale-110">
+                      <FiExternalLink className="w-7 h-7" onClick={() => window.open(live_link)} />
+                    </button>
+                    <button className="w-1/2 mr-10 duration-200 hover:scale-110">
+                      <img src={github} className="w-7 h-7" onClick={() => window.open(source_code_link)} />
+                    </button>
+                  </div>
+                </div>
+            
                 <div className="mt-2 flex flex-wrap gap-2">
                   {tags.map((tag) => (
                     <p
                       key={`${name}-${tag.name}`}
-                      className='text-sm font-extralight'
+                      className='text-sm font-extralight pb-4'
                     >
                       {tag.name}
                     </p>
                   ))}
                 </div>
-              </div>
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105">
-                  <FiExternalLink className="w-1/3 h-1/3" onClick={() => window.open(live_link)} />
-                </button>
-                <button className="w-1/2 px-6 py-2 m-4 duration-200 hover:scale-105">
-                  <img src={github} className="w-1/3 h-1/3 object-contain" onClick={() => window.open(source_code_link)} />
-                </button>
               </div>
             </div>
           ))}

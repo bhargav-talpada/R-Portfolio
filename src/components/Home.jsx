@@ -16,7 +16,7 @@ const Home = () => {
           </h2>
           <p class="bg-gradient-to-r from-blue-300 via-blue-500 to-white bg-clip-text text-transparent text-[65px] max-[600px]:text-[50px] max-[450px]:text-[40px] max-[380px]:text-[30px] font-bold">Web Developer</p>
           <p className="text-gray-500 py-4 max-w-md">
-          I’m a front-end developer with solid experience in creating and improving web applications using React.js and Tailwind CSS.
+          I’m a front-end developer with solid foundation in creating and improving web applications using React.js and Tailwind CSS.
           </p>
 
           <div>
