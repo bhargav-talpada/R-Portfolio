@@ -138,7 +138,7 @@ const Portfolio = () => {
 
   return (
     <div
-      name="portfolio"
+      name="projects"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white"
     >
       <div className="max-w-[1200px] p-4 mx-auto flex flex-col justify-center w-full h-full">
