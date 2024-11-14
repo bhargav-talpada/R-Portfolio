@@ -33,7 +33,7 @@ const NavBar = () => {
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-50">
       <div>
         {/* <h1 className="text-5xl font-signature ml-2">Bhargav</h1> */}
-        <img src={logo} alt="" class="w-16 h-16 ml-[150px]"></img>
+        <img src={logo} alt="" class="w-16 h-16 ml-0 md:ml-[150px]"></img>
       </div>
 
       <ul className="hidden md:flex">

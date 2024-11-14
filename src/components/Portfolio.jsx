@@ -149,7 +149,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 ">
           {portfolios.map(({ id, src, name, tags, source_code_link, live_link }) => (
             <div
               key={id}
@@ -163,7 +163,7 @@ const Portfolio = () => {
                     <button className="w-1/2 mr-5 py-4 duration-500 hover:scale-110">
                       <FiExternalLink className="w-7 h-7" onClick={() => window.open(live_link)} />
                     </button>
-                    <button className="w-1/2 mr-10 duration-200 hover:scale-110">
+                    <button className="w-1/2 md:mr-10 duration-200 hover:scale-110">
                       <img src={github} className="w-7 h-7" onClick={() => window.open(source_code_link)} />
                     </button>
                   </div>
