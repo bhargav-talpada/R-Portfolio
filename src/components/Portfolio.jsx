@@ -49,27 +49,6 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      name: "Netflix Clone",
-      tags: [
-        {
-          name: "ReactJS,",
-        },
-        {
-          name: "API,",
-        },
-        {
-          name: "Tailwind CSS,",
-        },
-        {
-          name: "Firebase",
-        },
-      ],
-      src: netflixPage,
-      source_code_link: "https://github.com/bhargav-talpada/My-Netflix.git",
-    },
-    
-    {
-      id: 4,
       name: "3D-Website",
       tags: [
         {
@@ -88,6 +67,27 @@ const Portfolio = () => {
       src: threeDsite,
       source_code_link: "https://github.com/bhargav-talpada/3D-Portfolio.git",
       live_link: "https://bhargav-talpada.vercel.app/",
+    },
+    {
+      id: 4,
+      name: "Netflix Clone",
+      tags: [
+        {
+          name: "ReactJS,",
+        },
+        {
+          name: "API,",
+        },
+        {
+          name: "Tailwind CSS,",
+        },
+        {
+          name: "Firebase",
+        },
+      ],
+      src: netflixPage,
+      source_code_link: "https://github.com/bhargav-talpada/My-Netflix.git",
+      live_link: "https://my-netflix-two.vercel.app/",
     },
     {
       id: 5,
