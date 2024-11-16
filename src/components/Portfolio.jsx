@@ -28,6 +28,7 @@ const Portfolio = () => {
       ],
       src: swiggyClone,
       source_code_link: "https://github.com/bhargav-talpada/My-Swiggy.git", 
+      live_link: "https://my-swiggy-clone.vercel.app/",
     },
     {
       id: 2,
