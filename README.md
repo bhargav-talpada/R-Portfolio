@@ -12,7 +12,7 @@
 
 🛠️ Tech Stack
 - Frontend:
--     ReactJS ⚛️,
+-     ReactJS ⚛️
 -     Tailwind CSS 🎨
 
 - Development Tools:
