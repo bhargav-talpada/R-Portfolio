@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Certificate from "./components/Certificate";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Home from "./components/Home";
@@ -21,6 +22,7 @@ function App() {
       <About />
       <Portfolio />
       <Experience />
+      <Certificate />
       <Contact />
 
       <SocialLinks />

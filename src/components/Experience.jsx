@@ -69,6 +69,11 @@ const Experience = () => {
       title: "MongoDB",
       borderColor: "1px solid rgb(255, 255, 0)",
     },
+    {
+      id: 5,
+      title: "Jwt",
+      borderColor: "1px solid rgb(118, 75, 188)",
+    },
   ];
 
   const other = [
@@ -81,6 +86,11 @@ const Experience = () => {
       id: 2,
       title: "Visual Studio Code",
       borderColor: "1px solid rgb(21, 114, 182)",
+    },
+    {
+      id: 3,
+      title: "Postman",
+      borderColor: "1px solid rgb(255, 165, 0)",
     },
   ];
 
