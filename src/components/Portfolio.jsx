@@ -6,6 +6,7 @@ import htmlCssPortfolio from "../assets/portfolio/portfolio.png";
 import htmlCssProjects from "../assets/portfolio/html-css-projects.png";
 import jsProjects from "../assets/portfolio/js-projects.png";
 import threeDsite from "../assets/portfolio/3d-site.png";
+import UI from '../assets/portfolio/UI.png'
 import github from "../assets/github.png";
 import { FiExternalLink } from "react-icons/fi";
 
@@ -14,21 +15,21 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      name: "Swiggy Clone",
+      name: "Figma to Design",
       tags: [
         {
           name: "ReactJS,",
         },
         {
-          name: "API,",
+          name: "Figma,",
         },
         {
           name: "Tailwind CSS",
         },
       ],
-      src: swiggyClone,
-      source_code_link: "https://github.com/bhargav-talpada/My-Swiggy.git", 
-      live_link: "https://my-swiggy-clone.vercel.app/",
+      src: UI,
+      source_code_link: "https://github.com/bhargav-talpada/zysk-task.git", 
+      live_link: "https://zysk-task-five.vercel.app/",
     },
     {
       id: 2,
@@ -71,6 +72,24 @@ const Portfolio = () => {
     },
     {
       id: 4,
+      name: "Swiggy Clone",
+      tags: [
+        {
+          name: "ReactJS,",
+        },
+        {
+          name: "API,",
+        },
+        {
+          name: "Tailwind CSS",
+        },
+      ],
+      src: swiggyClone,
+      source_code_link: "https://github.com/bhargav-talpada/zysk-task.git", 
+      live_link: "https://my-swiggy-clone.vercel.app/",
+    },
+    {
+      id: 5,
       name: "Netflix Clone",
       tags: [
         {
@@ -91,7 +110,7 @@ const Portfolio = () => {
       live_link: "https://my-netflix-two.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       name: "HTML-CSS-Portfolio",
       tags: [
         {
@@ -109,7 +128,7 @@ const Portfolio = () => {
       live_link: "https://bhargavtalpada.netlify.app/",
     },
     {
-      id: 6,
+      id: 7,
       name: "JavaScript-Projects",
       tags: [
         {
@@ -121,7 +140,7 @@ const Portfolio = () => {
       live_link: "https://bhargav-js-projects.netlify.app/",
     },
     {
-      id: 7,
+      id: 8,
       name: "HTML-CSS-Projects",
       tags: [
         {
