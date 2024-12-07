@@ -1,5 +1,6 @@
 import ReactJsCirtificate from '../assets/certificate/react_basic certificate.pdf'
 import namasteJavascript from '../assets/certificate/Namaste-JS-Certificate.webp'
+import micro from '../assets/certificate/micro1-certificate.jpg'
 
 const Certificate = () => {
 
@@ -8,10 +9,10 @@ const Certificate = () => {
           title: "React Developer Exam by Hackerank",
           link: ReactJsCirtificate,
         },
-        // {
-        //   title: "Training in React JS by TOPS Technology",
-        //   link: ReactJsTraining,
-        // },
+        {
+          title: "Certified Web Developer by micro1",
+          link: micro,
+        },
         {
           title: "Javascript Course by Akshay Saini",
           link: namasteJavascript,
