@@ -33,7 +33,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      name: "Youtube Clone",
+      name: "Youtube UI Clone",
       tags: [
         {
           name: "ReactJS,",
@@ -72,7 +72,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      name: "Swiggy Clone",
+      name: "Swiggy UI Clone",
       tags: [
         {
           name: "ReactJS,",
@@ -90,7 +90,7 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      name: "Netflix Clone",
+      name: "Netflix Login UI Clone",
       tags: [
         {
           name: "ReactJS,",
