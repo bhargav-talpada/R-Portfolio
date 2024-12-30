@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/bhargav-talpada-55aa24261/",
+      href: "https://www.linkedin.com/in/bhargav-talpada/",
       style: "rounded-tr-md",
     },
     {
