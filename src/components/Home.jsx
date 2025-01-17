@@ -38,7 +38,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="max-w-[300px] max-h-[400px] md:max-w-[400px] md:max-h-[500px] h-full w-full rounded-[30px] object-cover border-[3px]  border-[#64ffda66] hover:border-cyan-400 shadowSpread transition-all duration-300 rotate-[4deg] hover:rotate-0"
+            className="max-w-[300px] max-h-[400px] md:max-w-[400px] md:max-h-[500px] h-full w-full rounded-[30px] object-cover border-[3px]  border-[#64ffda66] hover:border-cyan-400 shadowSpread transition-all duration-300 rotate-0 md:rotate-[4deg] hover:rotate-0"
           />
         </div>
       </div>
